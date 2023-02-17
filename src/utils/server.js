@@ -17,7 +17,8 @@ const initialize = (app) => {
 };
 const start = (app) => {
   // app.listen(process.env.PORT, "192.168.170.150", () => {}); // wifi tel jo
-  app.listen(process.env.PORT, "192.168.174.150", () => {}); // wifi blackbox
+  // app.listen(process.env.PORT, "192.168.174.150", () => {}); // wifi blackbox
+  app.listen(process.env.PORT, () => {}); // wifi blackbox
   // app.listen(process.env.PORT, "192.168.1.71", () => {}); // wifi chez jo
 };
 
